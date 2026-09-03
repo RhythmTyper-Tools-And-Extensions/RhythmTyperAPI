@@ -1,5 +1,7 @@
-put this in the same folder as your script
-then run:
+Put this in a folder named RhythmTyperAPI. Put that folder in the same directory as your script, then run:
 
-from client import RhythmTyperClient
+```python
+from RhythmTyperAPI.client import RhythmTyperClient
+
 rt = RhythmTyperClient()
+```
