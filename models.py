@@ -860,7 +860,6 @@ class BestScores:
 class UserSearchResult:
     user_id: str
     username: str
-    display_name: str
     profile_picture: str
     total_pp: float | int
     global_rank: int
@@ -871,7 +870,6 @@ class UserSearchResult:
         return cls(
             user_id=data["userId"],
             username=data["username"],
-            display_name=data["displayName"],
             profile_picture=data["profilePicture"],
             total_pp=data["totalPP"],
             global_rank=data["globalRank"],
