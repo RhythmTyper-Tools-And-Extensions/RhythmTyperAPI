@@ -83,9 +83,10 @@ def find_new_data(data, indent=0):
                         level + 4
                     )
                 else:
-                    print(f"{prefix}{key}: list[{merge_types(
+                    merged_type = merge_types(
                         [x for v in values if isinstance(v, list) for x in v]
-                    )}]")
+                    )
+                    print(f"{prefix}{key}: list[{merged_type}]")
 
             else:
                 print(f"{prefix}{key}: {merge_types(values)}")
