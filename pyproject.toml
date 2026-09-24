@@ -1,6 +1,6 @@
 [project]
 name = "rhythmtyperapi"
-version = "0.1.0"
+version = "0.1.4"
 description = "Library for python to interact with RhythmTyper's endpoints."
 authors = [
     {name = "bobthaboy"}
